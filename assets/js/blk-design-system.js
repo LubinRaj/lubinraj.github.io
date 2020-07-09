@@ -293,8 +293,8 @@ type: 'line',
 data: {
 labels: ["SEM 1", "SEM 2", "SEM 3", "SEM 4", "SEM 5", "SEM 6", "SEM 7", "SEM 8"],
 datasets: [{
-label: "CLICK TO SEE ONLY CGPA",
-data: [65, 59, 80, 81, 56, 55, 40, 36],
+label: "CLICK TO SEE PERFORMANCE",
+data: [65, 59, 75, 71, 56, 55, 50, 56],
 backgroundColor: [
 'rgba(10, 0, 132, .2)',
 ],
@@ -304,8 +304,8 @@ borderColor: [
 borderWidth: 2
 },
 {
-label: "other",
-data: [28, 48, 40, 19, 86, 27, 90, 17],
+label: "CLICK TO SEE ONLY CGPA",
+data: [68, 48, 60, 59, 76, 57, 60, 47],
 backgroundColor: [
 'rgba(0, 137, 132, .2)',
 ],
