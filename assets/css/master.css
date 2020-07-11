@@ -299,6 +299,11 @@ p.text-muted{
   vertical-align: middle;
 }
 
+.bottomcenter  {
+  bottom: 0;
+}
+
+
 /*.card-body2::before{
 	min-height: 800px; 
 }*/
