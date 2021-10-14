@@ -1,3 +1,7 @@
+.hide {
+	opacity: 0;
+}
+
 .col-md-4{
 	display:flex;
 	justify-content: center;
@@ -60,6 +64,19 @@ p.text-muted{
 	margin: 10px;
 }
 
+.card3{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #525F7F;
+	background-clip: border-box;
+	border: 0.0625rem solid rgba(34, 42, 66, 0.05);
+	border-radius: 0.2857rem;
+	margin: 10px;
+}
+
 .page-header {
   min-height: 100vh;
   max-height: auto;
@@ -81,7 +98,7 @@ p.text-muted{
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
@@ -113,6 +130,19 @@ p.text-muted{
   height: 25px;
   right: -17px;
   background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.container3::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: blue;
   border: 4px solid #FF9F55;
   top: 15px;
   border-radius: 50%;
@@ -205,10 +235,44 @@ p.text-muted{
 }
 
 .content2:hover {
-  -ms-transform: scale(1.01); 
+  -ms-transform: scale(1.01);
   -webkit-transform: scale(1.01);
-  transform: scale(1.01); 
+  transform: scale(1.01);
   background-color: #6c6e8b;
+  transition: 0.3s;
+}
+
+.content3 {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+}
+
+.content3:hover {
+  -ms-transform: scale(1.10);
+  -webkit-transform: scale(1.10);
+  transform: scale(1.10);
+
+  transition: 0.3s;
+}
+
+.content4:hover {
+  -ms-transform: scale(1.50);
+  -webkit-transform: scale(1.50);
+  transform: scale(1.50);
+  transition: 0.3s;
+}
+
+.content5:hover {
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.content5:hover:active {
+  -ms-transform: scale(1.75);
+  -webkit-transform: scale(1.75);
+  transform: scale(1.75);
   transition: 0.3s;
 }
 
@@ -303,9 +367,94 @@ p.text-muted{
   bottom: 0;
 }
 
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
 
 /*.card-body2::before{
-	min-height: 800px; 
+	min-height: 800px;
 }*/
 
 
