@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="18" fill="#0b1020"/>
-  <path fill="#5de8e7" d="M20 15h9v26h16v8H20z"/>
+  <title>Lubin Raj</title>
+  <rect width="64" height="64" rx="18" fill="#10100f"/>
+  <path d="M15 14v35h17" fill="none" stroke="#f3f1ed" stroke-linecap="square" stroke-width="7"/>
+  <path d="M33 49V15h10.5c5.1 0 8.5 3.2 8.5 8s-3.4 8-8.5 8H33m10.2 0L52 49" fill="none" stroke="#2f51ff" stroke-linecap="square" stroke-linejoin="miter" stroke-width="6"/>
 </svg>

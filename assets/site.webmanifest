@@ -1,0 +1,22 @@
+{
+  "name": "Lubin Raj",
+  "short_name": "Lubin Raj",
+  "description": "Full Stack AI Engineer",
+  "icons": [
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#10100f",
+  "background_color": "#10100f",
+  "display": "standalone"
+}
