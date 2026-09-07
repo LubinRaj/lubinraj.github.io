@@ -1,16 +1,12 @@
-const menuButton = document.querySelector('[data-menu-button]');
-const menu = document.querySelector('[data-menu]');
+document.documentElement.classList.add('js');
 
-if (menuButton && menu) {
-  menuButton.addEventListener('click', () => {
-    const isOpen = menu.classList.toggle('open');
-    menuButton.setAttribute('aria-expanded', String(isOpen));
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
   });
+}, { threshold: 0.12 });
 
-  menu.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', () => {
-      menu.classList.remove('open');
-      menuButton.setAttribute('aria-expanded', 'false');
-    });
-  });
-}
+document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
