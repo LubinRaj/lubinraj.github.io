@@ -129,28 +129,28 @@
     "id": 19,
     "file": "assets/certificates/019.jpg",
     "category": "NPTEL",
-    "redacted": false,
+    "redacted": true,
     "sequence": 19
   },
   {
     "id": 20,
     "file": "assets/certificates/020.jpg",
     "category": "NPTEL",
-    "redacted": false,
+    "redacted": true,
     "sequence": 20
   },
   {
     "id": 21,
     "file": "assets/certificates/021.jpg",
     "category": "NPTEL",
-    "redacted": false,
+    "redacted": true,
     "sequence": 21
   },
   {
     "id": 22,
     "file": "assets/certificates/022.jpg",
     "category": "NPTEL",
-    "redacted": false,
+    "redacted": true,
     "sequence": 22
   },
   {
@@ -191,28 +191,28 @@
   {
     "id": 28,
     "file": "assets/certificates/028.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 28
   },
   {
     "id": 29,
     "file": "assets/certificates/029.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 29
   },
   {
     "id": 30,
     "file": "assets/certificates/030.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 30
   },
   {
     "id": 31,
     "file": "assets/certificates/031.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 31
   },
@@ -240,7 +240,7 @@
   {
     "id": 35,
     "file": "assets/certificates/035.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 35
   },
@@ -254,21 +254,21 @@
   {
     "id": 37,
     "file": "assets/certificates/037.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 37
   },
   {
     "id": 38,
     "file": "assets/certificates/038.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 38
   },
   {
     "id": 39,
     "file": "assets/certificates/039.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 39
   },
@@ -345,7 +345,7 @@
   {
     "id": 50,
     "file": "assets/certificates/050.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 50
   },
@@ -366,14 +366,14 @@
   {
     "id": 53,
     "file": "assets/certificates/053.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 53
   },
   {
     "id": 54,
     "file": "assets/certificates/054.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 54
   },
@@ -422,7 +422,7 @@
   {
     "id": 61,
     "file": "assets/certificates/061.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 61
   },
@@ -436,28 +436,28 @@
   {
     "id": 63,
     "file": "assets/certificates/063.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 63
   },
   {
     "id": 64,
     "file": "assets/certificates/064.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 64
   },
   {
     "id": 65,
     "file": "assets/certificates/065.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 65
   },
   {
     "id": 66,
     "file": "assets/certificates/066.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 66
   },
@@ -471,98 +471,98 @@
   {
     "id": 68,
     "file": "assets/certificates/068.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 68
   },
   {
     "id": 69,
     "file": "assets/certificates/069.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 69
   },
   {
     "id": 70,
     "file": "assets/certificates/070.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 70
   },
   {
     "id": 71,
     "file": "assets/certificates/071.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 71
   },
   {
     "id": 72,
     "file": "assets/certificates/072.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 72
   },
   {
     "id": 73,
     "file": "assets/certificates/073.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 73
   },
   {
     "id": 74,
     "file": "assets/certificates/074.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 74
   },
   {
     "id": 75,
     "file": "assets/certificates/075.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 75
   },
   {
     "id": 76,
     "file": "assets/certificates/076.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 76
   },
   {
     "id": 77,
     "file": "assets/certificates/077.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 77
   },
   {
     "id": 78,
     "file": "assets/certificates/078.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 78
   },
   {
     "id": 79,
     "file": "assets/certificates/079.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 79
   },
   {
     "id": 80,
     "file": "assets/certificates/080.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 80
   },
   {
     "id": 81,
     "file": "assets/certificates/081.jpg",
-    "category": "Courses",
+    "category": "Other",
     "redacted": false,
     "sequence": 81
   },

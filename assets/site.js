@@ -45,7 +45,7 @@ if (certificateGrid) {
     count.textContent = `${visible.length} of ${certificates.length} certificates`;
     certificateGrid.innerHTML = visible.length ? visible.map((certificate) => {
       const title = titleFor(certificate);
-      const note = 'Open certificate';
+      const note = certificate.redacted ? 'Personal details redacted' : 'Open certificate';
       return `<article class="certificate-card"><a href="${escapeHtml(certificate.file)}" target="_blank" rel="noreferrer"><img loading="lazy" src="${escapeHtml(certificate.file)}" alt="${escapeHtml(title)}"></a><div class="certificate-card-meta"><p class="certificate-card-category">${escapeHtml(certificate.category)}</p><p class="certificate-card-title">${escapeHtml(title)}</p><p class="certificate-card-note">${escapeHtml(note)} <span aria-hidden="true">↗</span></p></div></article>`;
     }).join('') : '<p class="certificate-empty">No certificates match this filter.</p>';
   };
@@ -57,7 +57,8 @@ if (certificateGrid) {
     })
     .then((data) => {
       certificates = data;
-      [...new Set(certificates.map((certificate) => certificate.category))].forEach((category) => {
+      const categoryOrder = ['Highlights', 'NPTEL', 'Internships', 'Courses', 'Challenges & contests', 'Skill-Lync', 'Skyy Rider', 'Other'];
+      categoryOrder.filter((category) => certificates.some((certificate) => certificate.category === category)).forEach((category) => {
         const option = document.createElement('option');
         option.value = category;
         option.textContent = category;
